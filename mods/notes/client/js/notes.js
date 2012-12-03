@@ -13,5 +13,9 @@ define(function(require) {
 		this.presenter.render(parent);
 	}
 
+	Notes.prototype.getRoot = function() {
+		return this.presenter.getRoot()[0];
+	}
+
 	return Notes;
 });

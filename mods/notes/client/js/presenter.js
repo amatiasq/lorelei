@@ -46,6 +46,10 @@ define(function(require) {
 			return this.render(parent);
 		},
 
+		getRoot: function() {
+			return this.view.main;
+		},
+
 		createNote: function() {
 			console.log("Create Note");
 		},
