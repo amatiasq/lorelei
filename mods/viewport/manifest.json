@@ -1,0 +1,24 @@
+{
+	"name": "Viewport",
+	"description": "A basic structure to switch between active modules",
+
+	"server": {
+		// No server
+		"shell": "true"
+	},
+
+	"client": {
+		"root-folder": "js",
+		"main": "main",
+
+		"requirejs-config": {
+			"tmpl": {
+				"path": "../templates",
+				"extension": ".mustache"
+			},
+			"css": {
+				"less": true
+			}
+		}
+	}
+}
